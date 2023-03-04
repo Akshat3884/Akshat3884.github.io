@@ -1,0 +1,49 @@
+body{
+    background: rgb(102,101,119);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+#inputField{
+    width: 300px;
+    height: 46px;
+    border: 2px solid #212529;
+    outline: none;
+    border-radius: 5rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.maintodo{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.todoC{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+#addTodo{
+    outline: none;
+    border-radius: 1rem;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    text-align: center;
+}
+
